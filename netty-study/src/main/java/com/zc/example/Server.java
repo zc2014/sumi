@@ -19,7 +19,7 @@ import io.netty.util.CharsetUtil;
  * @Description TODO
  * @Date 2019-10-14 20:59
  */
-public class TestServer {
+public class Server {
     public static void main(String[] args) throws InterruptedException {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
