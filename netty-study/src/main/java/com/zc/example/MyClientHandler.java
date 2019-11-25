@@ -1,31 +1,19 @@
 package com.zc.example;
 
-import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import io.netty.util.concurrent.EventExecutorGroup;
 
-import java.time.LocalDateTime;
-import java.util.UUID;
-import java.util.concurrent.TimeUnit;
-
-/**
- * @author by zc21
- * @Description
- * @Date 2019-10-14 21:12
- */
 public class MyClientHandler extends SimpleChannelInboundHandler<String> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
-        System.out.println(ctx.channel().remoteAddress());
-        System.out.println("[" + LocalDateTime.now() + "]," + msg);
+        System.out.println("MyClientHandler#channelRead0 invoked!→→→→→→" + msg);
         Thread.sleep(1000);
-        ctx.writeAndFlush("→→→→→→→→→→→→" + UUID.randomUUID());
+        ctx.writeAndFlush("ping");
     }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        ctx.writeAndFlush("客户端建立连接");
+        ctx.writeAndFlush("ping");
     }
 
     @Override
