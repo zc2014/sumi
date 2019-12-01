@@ -10,9 +10,11 @@
         <module name="sumi" />
         <module name="netty-study" />
         <module name="kafka-demo" />
+        <module name="elasticsearch-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="elasticsearch-demo" target="1.8" />
       <module name="kafka-demo" target="1.8" />
       <module name="netty-study" target="1.8" />
       <module name="sumi" target="1.8" />
@@ -21,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="elasticsearch-demo" options="-parameters" />
       <module name="kafka-demo" options="-parameters" />
       <module name="netty-study" options="-parameters" />
     </option>
