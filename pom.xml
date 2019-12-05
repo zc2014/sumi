@@ -6,7 +6,11 @@
 
     <groupId>groupId</groupId>
     <artifactId>sumi</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>mybatis-generator-for-zc</module>
+    </modules>
 
-    
+
 </project>

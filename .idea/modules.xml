@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/elasticsearch-demo/elasticsearch-demo.iml" filepath="$PROJECT_DIR$/elasticsearch-demo/elasticsearch-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-demo/kafka-demo.iml" filepath="$PROJECT_DIR$/kafka-demo/kafka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-generator-for-zc/mybatis-generator-for-zc.iml" filepath="$PROJECT_DIR$/mybatis-generator-for-zc/mybatis-generator-for-zc.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-study/netty-study.iml" filepath="$PROJECT_DIR$/netty-study/netty-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sumi.iml" filepath="$PROJECT_DIR$/.idea/sumi.iml" />
       <module fileurl="file://$PROJECT_DIR$/work/work.iml" filepath="$PROJECT_DIR$/work/work.iml" />

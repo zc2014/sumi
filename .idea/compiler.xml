@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="work" />
-        <module name="sumi" />
         <module name="netty-study" />
+        <module name="mybatis-generator-for-zc" />
         <module name="kafka-demo" />
         <module name="elasticsearch-demo" />
       </profile>
@@ -16,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="elasticsearch-demo" target="1.8" />
       <module name="kafka-demo" target="1.8" />
+      <module name="mybatis-generator-for-zc" target="1.8" />
       <module name="netty-study" target="1.8" />
       <module name="sumi" target="1.8" />
       <module name="work" target="1.8" />
